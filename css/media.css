@@ -9,14 +9,43 @@
     position: absolute;
     flex-direction: column;
     z-index: 10px;
-    background-color:  rgb(62, 62, 62);
+    background-color: rgb(62, 62, 62);
     padding: 30px;
   }
   .burger {
     display: block;
   }
-  .content{
-    background-color:  rgb(62, 62, 62);
+  .content {
+    background-color: rgb(62, 62, 62);
     color: rgba(20, 33, 61, 1);
+  }
+}
+@media (max-width: 1164px) {
+  .about_wrapper {
+    justify-content: center;
+  }
+  .about_wrapper h1 {
+    font-family: Inknut Antiqua;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 92.84px;
+    text-align: left;
+  }
+
+  .about_wrapper p {
+    font-family: Inria Serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24.18px;
+    text-align: justified;
+  }
+}
+@media (max-width: 454px) {
+  .about_wrapper p {
+    font-family: Inria Serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.18px;
+    text-align: justified;
   }
 }
